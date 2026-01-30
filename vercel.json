@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/category/:path*", "destination": "/blog" },
+    { "source": "/tag/:path*", "destination": "/blog" },
+    { "source": "/feed", "destination": "/blog" },
+    { "source": "/feed/", "destination": "/blog" }
+  ]
+}
